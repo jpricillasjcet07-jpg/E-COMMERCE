@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
-const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080',
+const API = axios.create({
+  baseURL: "https://e-commerce-production-7139.up.railway.app",
 });
 
-export default api;
+export default API;
