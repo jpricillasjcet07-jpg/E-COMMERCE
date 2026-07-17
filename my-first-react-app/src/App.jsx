@@ -7,7 +7,7 @@ import Register from "./Register";
 import Wishlist from "./Wishlist";
 import About from "./About";
 import Contact from "./Contact";
-
+import axiosConfig from "./axiosConfig";
 function App() {
   return (
     <BrowserRouter>
